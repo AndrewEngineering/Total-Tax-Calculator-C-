@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+   double trate, iprice;
+    cout << "Please Enter In Tax Rate" << endl;
+    cin >> trate;
+    while (1==1) {
+            cout << "Please Enter Item Price" << endl;
+    cin >> iprice;
+    double total = trate * iprice + iprice;
+    cout << "The Total Is $" << total << endl;
+    }
+    return 0;
+}
